@@ -1,0 +1,35 @@
+html {
+  color: #1a1a1a;
+  background-color: #ffffff;
+  overflow-x: initial !important;
+}
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+th {
+    text-align: left;
+    background-color: #eee;
+}
+tr:nth-child(even) {background-color: #fafafa}
