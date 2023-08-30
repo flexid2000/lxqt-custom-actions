@@ -1,0 +1,22 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/jpg;image/png;image/jpeg;
+Actions=img2pdf-16x9;img2pdf-a4hoch;img2pdf-a4quer;
+X-KDE-Priority=TopLevel
+X-KDE-Submenu=PDF aus Bildern erzeugen
+
+[Desktop Action img2pdf-16x9]
+Name=Format 16x9
+Icon=application-pdf
+Exec=img2pdf -o converted-16x9.pdf -S 280mmx157.5mm %U
+
+[Desktop Action img2pdf-a4hoch]
+Name=Format A4 hoch
+Icon=application-pdf
+Exec=img2pdf -o converted-a4hoch.pdf -S A4 %U
+
+[Desktop Action img2pdf-a4quer]
+Name=Format A4 quer
+Icon=application-pdf
+Exec=img2pdf -o converted-a4quer.pdf -S A4^T %U
+
